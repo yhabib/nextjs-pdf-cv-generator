@@ -7,8 +7,8 @@
     "build:styles": "npx tailwindcss -o public/build.css --minify ",
     "start": "next start",
     "lint": "next lint",
-    "pdf:open": "npm run build:styles && open http://localhost:3000/api/cv",
-    "pdf:download": "npm run build:styles && curl -o public/cv.pdf http://localhost:3000/api/pdf"
+    "pdf:open": "yarn run build:styles && open http://localhost:3000/api/cv",
+    "pdf:download": "yarn run build:styles && curl -o public/cv.pdf http://localhost:3000/api/pdf"
   },
   "dependencies": {
     "next": "12.0.8",
